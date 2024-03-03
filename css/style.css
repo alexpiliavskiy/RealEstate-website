@@ -1293,3 +1293,21 @@ body {
   }
 }
 /* ================================ */
+#userList {
+  list-style-type: none;
+  padding-top: 20px;
+  color: #323232;
+}
+#userList li {
+  cursor: pointer;
+}
+#userList li:hover {
+  text-decoration: underline;
+}
+#userList li:not(:last-child) {
+  margin-bottom: 20px;
+}
+#userList li.noUsers {
+  color: red;
+}
+/* ================================ */
